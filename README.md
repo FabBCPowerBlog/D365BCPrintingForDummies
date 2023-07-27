@@ -27,6 +27,8 @@ A noter que, pour les impressions interactives, si on souhaite qu'une imprimante
 
 ### Print Node
 
+https://www.printnode.com/fr
+
 Le service **Print Node** est un service web d'impression.
 
 Le service **Print Node** peut être utilisé de deux façons :
@@ -34,11 +36,17 @@ Le service **Print Node** peut être utilisé de deux façons :
 - **Via email** : chaque imprimante recensée via la plateforme **Print Node** hérite d'une adresse email. Si un email est envoyé à l'une de ces adresses avec un document en pièce jointe, le document est alors automatiquement imprimé.
 - **Via webservice** : le service **Print Node** expose un ensemble d'API qui peuvent être invoquées depuis **Business Central** afin de lancer les impressions. 
 
+Dans les deux cas d'utilisation, il est nécessaire d'installer un client local qui servira de passerelle entre le service web et les ressources locales.
+https://www.printnode.com/fr/docs/installation/windows
+
 #### Utilisation via email
 
 Depuis **Business Central**, il est possible d'utiliser le service **Print Node** via email sans installer d'app tierce. Il suffit de définir des **imprimantes par e-mail** depuis la page **Gestion de l'impression**. Chaque impression donnera lieu à l'envoi d'un email avec le document à imprimer en pièce jointe et donc lancera l'impression sur l'imprimante.
 
 **Attention !** Ce fonctionnement nécessite de paramétrer un compte de messagerie afin que **Business Central** puisse émettre les emails vers le service web.
+
+Pour paramétrer des imprimantes par mail 
+https://learn.microsoft.com/fr-fr/dynamics365/business-central/admin-printer-setup-email
 
 #### Utilisation via webservice
 
