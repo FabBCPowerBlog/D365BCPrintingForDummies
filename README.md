@@ -31,6 +31,8 @@ https://www.printnode.com/fr
 
 Le service **Print Node** est un service web d'impression.
 
+#### Fonctionnement
+
 Le service **Print Node** peut être utilisé de deux façons :
 
 - **Via email** : chaque imprimante recensée via la plateforme **Print Node** hérite d'une adresse email. Si un email est envoyé à l'une de ces adresses avec un document en pièce jointe, le document est alors automatiquement imprimé.
@@ -39,7 +41,17 @@ Le service **Print Node** peut être utilisé de deux façons :
 Dans les deux cas d'utilisation, il est nécessaire d'installer un client local qui servira de passerelle entre le service web et les ressources locales.
 https://www.printnode.com/fr/docs/installation/windows
 
-#### Utilisation via email
+La console d'administration de printnode (https://api.printnode.com/app/devices) permet de  :
+- Consulter les imprimantes disponibles sur le compte print node.
+- Consulter les adresses e-mail de chaque imprimante.
+- Définir une whitelist des e-mail autorisés à utiliser le service.
+- Tester l'impression sur les imprimantes.
+
+#### Tarif
+
+https://www.printnode.com/fr/pricing
+
+#### Utilisation via email avec Business Central
 
 Depuis **Business Central**, il est possible d'utiliser le service **Print Node** via email sans installer d'app tierce. Il suffit de définir des **imprimantes par e-mail** depuis la page **Gestion de l'impression**. Chaque impression donnera lieu à l'envoi d'un email avec le document à imprimer en pièce jointe et donc lancera l'impression sur l'imprimante.
 
@@ -48,9 +60,12 @@ Depuis **Business Central**, il est possible d'utiliser le service **Print Node*
 Pour paramétrer des imprimantes par mail 
 https://learn.microsoft.com/fr-fr/dynamics365/business-central/admin-printer-setup-email
 
-#### Utilisation via webservice
+#### Utilisation via webservice avec Business Central
 
 Pour utiliser **Print Node** via webservice, le plus simple est d'utiliser un connecteur disponible depuis l'AppSource.
 
 - **Insight Works PrintNode Connector**
+https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323%7CPAPPID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323?tab=Overview
+  
 - **VLC PrintNode Integration**
+https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vlc-solutions-llc-1263055%7CAID.vlc_printnode_integration%7CPAPPID.fb6dcfa1-3e74-4afc-a197-58b72ddf118a?tab=Overview
